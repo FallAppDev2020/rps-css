@@ -1,0 +1,55 @@
+  .button { 
+        border: 2px teal dashed;
+        border-radius: 10px;
+        text-decoration:none;
+        display: inline-block;
+        width:100%;
+        text-align: center;
+        padding-top: 0.25em;
+        padding-bottom: 0.25em;
+        margin-bottom: 20px;
+        }
+        
+    .player-card { 
+      border: thin green solid;
+      width: 49%;
+        }
+
+    .computer-card { 
+     border: thin red solid;
+     width: 49%;  
+        }
+
+    .outcome-card { 
+     border: thin orchid dashed;
+     width: 66%;  
+     background-color: red;
+     text-align:center;
+        }
+
+    .rowc {
+      display:flex;
+      justify-content: center;
+    }
+
+    .mb {
+      margin-bottom: 2in;
+    }
+    .row {
+      display:flex;
+      justify-content: space-between;
+    }
+
+    .one-third {
+      width:32%;
+    }
+
+    * {
+      /*border:thin red dashed;
+      box-sizing: border-box;*/
+    }
+
+    body {
+      font-family: 'Roboto', sans-serif;
+
+    }
